@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+   @import url('https://media.istockphoto.com/id/1322139332/photo/woman-wearing-red-dress-walking-on-salt-lake.webp?b=1&s=170667a&w=0&k=20&c=qyW3dTfFLWqCLBLvdNwOCAXtDwN983dTalq9qhpU9NY=');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Playfair Display', serif;
+}
+body{ background:url(https://www.istockphoto.com/photo/summer-composition-tropical-palm-leaves-hat-coconut-pineapple-on-pastel-gray-gm1248549372-363660823);
+  background-size:cover;
+  background-position:right;
+  background-attachment:fixed;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.Banner{
+  text-align: center;
+  margin-top: 80px;
+  font-size: 2.5rem;
+}
+</style>
+</head>
+<body>
+    {% include 'navbar.html' %}
+
+    {% block content %}
+
+   <div class="Banner">
+    <h1>Wellcome to my </h1>
+    <h2>Page</h2>
+
+   </div>
+
+    {% endblock %}
+    
+
+</body>
+</html>
